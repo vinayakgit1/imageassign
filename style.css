@@ -1,0 +1,95 @@
+.wrapper{
+    height:800px;
+    width:900px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+}
+header{
+    background-color: brown;
+    flex-grow: 1;
+
+
+}
+main{
+    background-color: yellow;
+    flex-grow: 8;
+    display: flex;
+    
+    
+}
+nav{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.upper{
+    
+    flex-grow: 1;
+    display: flex;
+
+}
+.upperright{
+    background-image: url(image/1.jpg);
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+}
+.upperleft{
+    background-image: url(image/2.jpg);
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+    background-size: 380px;
+
+}
+.middle{
+    flex-grow: 1;
+    display: flex;
+}
+.middleright{
+    background-image: url(image/3.jpg);
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+    background-size: 200px;
+}
+.middleleft{
+    background-image: url(image/4.jpg);
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+    background-size: 380px;
+}
+.lower{
+    
+    flex-grow: 1;
+    display: flex;
+}
+.lowerright{
+    background-image: url(image/6.jpg);
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+    background-size: 380px;
+}
+.lowerleft{
+    background-image: url(image/7.jpg);
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+    background-size: 380px;
+}
+aside{
+    
+    flex-grow: 1;
+    background-image: url(image/5.jpg);
+    background-size: 600px;
+    margin: 5px;
+    padding: 5px;
+}
+footer{
+    background-color: brown;
+    flex-grow: 1;
+}
